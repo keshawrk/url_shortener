@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+server/node_modules/
+shortener/node_modules/
+
+# Environment files
+.env
+server/.env
+shortener/.env
+
+# Vite build output
+shortener/dist/
+shortener/build/
+
+# Logs and temporary files
+*.log
+.DS_Store
+
+# Vite cache
+shortener/.vite/
+
+# Other generated files
+shortener/components.json
